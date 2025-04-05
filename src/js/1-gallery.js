@@ -48,8 +48,9 @@ const images = [
     },
 ];
 
-import SimpleLightbox from "simplelightbox/dist/simple-lightbox.esm"
-import './../../node_modules/simplelightbox/dist/simple-lightbox.css'
+// import SimpleLightbox from "simplelightbox/dist/simple-lightbox.esm"
+import SimpleLightbox from "simplelightbox";
+import './../../node_modules/simplelightbox/dist/simple-lightbox.css';
 
 
 const container = document.querySelector(".gallery");
