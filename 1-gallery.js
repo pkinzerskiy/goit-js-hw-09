@@ -8,5 +8,5 @@ import"./assets/default-DpLVL1uE.js";/* empty css                      */import{
             />
             </a>
         </li>       
-    `).join("")}new i(".gallery a",{captionsData:"alt",captionDelay:"1250"});
+    `).join("")}new i(".gallery a",{captionsData:"alt",captionDelay:"250"});
 //# sourceMappingURL=1-gallery.js.map
