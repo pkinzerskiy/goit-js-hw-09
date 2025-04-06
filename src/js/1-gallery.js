@@ -69,7 +69,7 @@ function tamplete(array) {
     `).join("");
 }
 
-let gallery = new SimpleLightbox('.gallery a', { captionsData: "alt", captionDelay: "1250" });
+let gallery = new SimpleLightbox('.gallery a', { captionsData: "alt", captionDelay: "250" });
 
 
 
