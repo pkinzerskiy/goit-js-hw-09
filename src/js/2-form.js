@@ -12,16 +12,17 @@ textInpt.addEventListener("input", handleInput);
 getMsgTextarea();
 
 function handleSbmt(event) {
-    console.log(formData)
+    event.preventDefault();
     let emailMsg = event.target.elements.email.value;
     let textMsg = event.target.elements.message.value; 
     if (emailMsg === "" || textMsg === "") {
            alert("Fill please all fields!");
             return
     }
-    event.preventDefault();
     event.currentTarget.reset();
     localStorage.removeItem(STORAGE_KEY);
+    console.log(formData);
+    formData = { email: "", message: "" };
 }
 
 function handleInput(event) {

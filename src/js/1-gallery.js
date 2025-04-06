@@ -48,7 +48,6 @@ const images = [
     },
 ];
 
-// import SimpleLightbox from "simplelightbox/dist/simple-lightbox.esm"
 import SimpleLightbox from "simplelightbox";
 import './../../node_modules/simplelightbox/dist/simple-lightbox.css';
 
@@ -70,17 +69,8 @@ function tamplete(array) {
     `).join("");
 }
 
-let gallery = new SimpleLightbox('.gallery a');
-gallery.defaultOptions.captionsData = "alt"; 
-gallery.defaultOptions.captionDelay = "250";
-// console.log(gallery);
+let gallery = new SimpleLightbox('.gallery a', { captionsData: "alt", captionDelay: "1250" });
 
-gallery.on('show.simplelightbox', );
-
-
-gallery.on('error.simplelightbox', function (e) {
-	console.log(e); // Some usefull information
-});
 
 
 
